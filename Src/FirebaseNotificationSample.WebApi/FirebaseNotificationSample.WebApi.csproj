@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FirebaseNotificationSample.Application\FirebaseNotificationSample.Application.csproj" />
+    <ProjectReference Include="..\FirebaseNotificationSample.Infra\FirebaseNotificationSample.Infra.csproj" />
+    <ProjectReference Include="..\FirebaseNotificationSample.Persistence\FirebaseNotificationSample.Persistence.csproj" />
+  </ItemGroup>
+
+</Project>
